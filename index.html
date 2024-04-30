@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Student Management System</title>
+</head>
+<body>
+    <h1 id="heading">Student Management System</h1>
+    <nav class="navbar">
+        <a href="#add-student">Add Student</a>
+        <a href="#view-student">View Students</a>
+    </nav>
+
+    <fieldset class="add-student" id="add-student">
+        <legend>Add Student</legend>
+        <label for="regno">Registration No. :</label>
+        <input type="text" name="regno" id="regno">
+        <br><br>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="course1">Web Programming :</label>
+        <input type="number" name="course1" id="course1">
+        <br><br>
+        <label for="course2">Machine Learning :</label>
+        <input type="number" name="course2" id="course2">
+        <br><br>
+        <label for="course3">Database Systems :</label>
+        <input type="number" name="course3" id="course3">
+        <br><br>
+        <button name="add" onclick="add()" id="add">Add Student</button>
+    </fieldset>
+
+    <fieldset class="view-student" id="view-student">
+        <legend>View Students</legend>
+        <table id="student-list">
+            <thead>
+                <tr>
+                    <th>Registration No.</th>
+                    <th>Name</th>
+                    <th>Web Programming</th>
+                    <th>Machine Learning</th>
+                    <th>Database Systems</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+        </table>
+    </fieldset>
+
+</body>
+</html>

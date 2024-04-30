@@ -1,0 +1,113 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+fieldset {
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+}
+
+.add-student {
+    width: 600px;
+}
+
+.view-student {
+    width: fit-content;
+}
+
+legend {
+    font-weight: 600;
+}
+
+input {
+    float: right;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    padding-left: 0.5rem;
+}
+
+#add {
+    float:right;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(145, 255, 161);
+    font-weight: 600;
+}
+
+th {
+    background-color: gray;
+    padding: 1rem;
+    width: 150px;
+}
+
+th:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+th:last-child {
+    border-top-right-radius: 0.5rem;
+}
+
+th:nth-child(1) {
+    width: 200px;
+}
+
+th:nth-child(2) {
+    width: 250px;
+}
+
+td {
+    padding: 0.5rem;
+    border-bottom: 2px solid gray;
+}
+
+.delete-btn {
+    background-color: red; 
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    float: right;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: lightblue; 
+    border-radius: 0.5rem;
+    color: black;
+    border: none;
+    float: right;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
